@@ -56,8 +56,8 @@ ul {
 }
 
 .col1 {
-    width: 60%;
-    height: 500px;
+    width: 50%;
+    height: 450px;
     float: left;
     background-color:#D6D6D6;
     border-radius: 10px;
@@ -71,23 +71,24 @@ ul {
 }
 
 .col1a {
-    width: 70%;
-    float: left;
-    padding: 00px;
+    width: 20%;
+    float: right;
+    padding: 0 10px;
+    line-height: 40px;
 }
 
 .col1b {
-    width: 30%;
-    float: right;
-    text-align: right;
+    width: 80%;
+    float: left;
+    text-align: left;
     padding: 0 10px;
+    line-height: 40px;
 }
 
 .col2 {
-    width: 40%;
+    width: 50%;
     float: left;
     padding: 0 10px;
-    margin-top: -10px;
     text-align: center;
 }
 
@@ -96,18 +97,10 @@ ul {
 	padding-right: 20px;
 }
 
-.submit {
-    background-color: #ffffff;
-    padding: 10px 25px;
-    font-size: 16px; 
-    font-style: bold;   
-    box-shadow: 5px 5px 5px #888888;
-    cursor: pointer;
-}
-
 .importance li {
 	display: inline;
 	line-height: 40px;
+	font-size: 12px;
 	margin: 0px 0px 0px 10px;
 	margin-right: 12px;
 }
@@ -116,28 +109,32 @@ input[type="radio"]{
 	margin: 0px 0px 0px 30px;
 } 
 
-.box {
-	margin: 10px;
-	background-color: #000000;
-	height: 125px;
-	border-radius: 10px;
-	box-shadow: 5px 5px 5px #888888;
+
+.lightbox {
+    width: 100%;
+    height: 150px;
+    display:inline-block;
+    background-color: white;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    margin-left: 0px;
+    box-shadow: 5px 5px 5px #888888;
 }
 
-.photo {
-	width: 140px;
-	height: 100%;
-	margin: 0 auto;
-	float: left;
-	background-color: white;
+.detailsbox {
+    width: 100%;
+    height: 200px;
+    display:inline-block;
+    background-color: white;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 40px;
+    box-shadow: 5px 5px 5px #888888;
+    display:none;
 }
 
-.roku-percent, 
-.apple-percent, 
-.chromecast-percent, 
-.fire-percent {
-	color: white;
-	margin: 10px;
-	font-size: 30px;
-	padding-top: 40px;
+li:hover {
+	color:red;
+	text-decoration: underline;
 }
